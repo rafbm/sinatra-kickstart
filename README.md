@@ -9,7 +9,7 @@ Minimal yet decent Sinatra structure for all your quick tests
 
 - classic style Sinatra app (no class)
 - `index.erb` + `layout.erb`
-- CoffeeScript (through Sprockets)
+- CoffeeScript + Stylus (through Sprockets)
 - good ol’ CSS
 
 

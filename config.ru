@@ -4,6 +4,7 @@ Bundler.require
 map '/assets' do
   assets = Sprockets::Environment.new
   assets.append_path 'public'
+  Stylus.setup(assets)
   run assets
 end
 

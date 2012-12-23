@@ -6,3 +6,4 @@ gem 'shotgun', :require => false
 # Assets
 gem 'sprockets'
 gem 'coffee-script'
+gem 'stylus'
