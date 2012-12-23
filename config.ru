@@ -1,6 +1,5 @@
-require 'sinatra'
-require 'sprockets'
-require 'coffee-script'
+require 'bundler/setup'
+Bundler.require
 
 map '/assets' do
   assets = Sprockets::Environment.new
